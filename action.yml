@@ -4,7 +4,7 @@ name: Arch makepkg
 description: Uses makepkg to build a package for Arch Linux
 inputs:
   path:
-    description: "Path to directory containing PKGBUILD file"
+    description: "Path to PKGBUILD file"
     required: true
     default: ""
 runs:
